@@ -7,7 +7,7 @@ namespace ImgToTxt.Lib
 	{
 	 	public static string Translate(string text, string lang)
 		{
-			string apiKey = "AIzaSyAzJq4lT8OW8wkcBVLnPjIFXNGPTt5hs_M";
+			string apiKey = "Your Api Key";
 
 			TranslationClient client = TranslationClient.CreateFromApiKey(apiKey);
 
